@@ -1,12 +1,19 @@
-.container {
+#container {
 	margin: 20px auto;
 	display: inline-block;
+	width: 980px;
+}
+
+.rack-group {
+	padding:5px;
+	margin: 40px 30px;
+	display: inline-block;
+	height: 90px;
 }
 
 .rack {
 	background-color: #aaa;
 	padding:5px;
-	margin: 10px;
 	display: inline-block;
 	height: 70px;
 }
@@ -19,19 +26,22 @@
 	margin: 2px;
 	display: inline-block;
 	position: relative;
-	top: -12px;
+	top: 2px;
 }
 
 .tmc {
 	background-color: #333;
-	height: 80px;
-	width: 80px;
+	height: 50px;
+	width: 60px;
 	margin: 0 5px;
 	display: inline-block;
 	font-size: 30px;
+	padding: 20px 10px 10px 10px;
 	display: inline-block;
 	position: relative;
-	top: -5px;
+	text-align: center;
+	top: -22px;
+	color: #fff;
 }
 
 .s1 {
@@ -49,7 +59,7 @@
 
 .slot .slot-text {
 	visibility: hidden;
-	width: 120px;
+	width: 220px;
 	background-color: #ff9;
 	color: #000;
 	text-align: left;
@@ -58,6 +68,7 @@
 	position: absolute;
 	z-index: 5;
 	top: 60px;
+	left: 10px;
 	font-size: 16px;
 }
 
@@ -67,7 +78,7 @@
 
 .tmc .tmc-text {
 	visibility: hidden;
-	width: 120px;
+	width: 220px;
 	background-color: #ff9;
 	color: #000;
 	text-align: left;
@@ -76,6 +87,7 @@
 	position: absolute;
 	z-index: 5;
 	top: 60px;
+	left: 45px;
 	font-size: 16px;
 }
 

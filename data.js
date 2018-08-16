@@ -1,4 +1,4 @@
-[
+var myData = [
 	{
 		"Name" : "Mondo Rack One",
 		"Type" : "Mondo Rack",
@@ -13,53 +13,53 @@
 			"Name" : "CTECM3S5TMC3",
 			"Number" : "CA#"
 		},
-		"Slot 1" : {
+		"Slot1" : {
 			"id" : "r1-s1-f",
-			"Manager" : "",
-			"Date" : "",
-			"HE" : ""
+			"Manager" : "Herbie Hancock",
+			"Date" : "04-24-2018",
+			"HE" : "??"
 		},
-		"Slot 2" : {
+		"Slot2" : {
 			"id" : "r1-s2-f",
 			"Manager" : "",
 			"Date" : "",
 			"HE" : ""
 		},
-		"Slot 3" : {
+		"Slot3" : {
 			"id" : "r1-s3-f",
 			"Manager" : "",
 			"Date" : "",
 			"HE" : ""
 		},
-		"Slot 4" : {
+		"Slot4" : {
 			"id" : "r1-s4-f",
 			"Manager" : "",
 			"Date" : "",
 			"HE" : ""
 		},
-		"Slot 5" : {
+		"Slot5" : {
 			"id" : "r1-s5-f",
 			"Manager" : "",
 			"Date" : "",
 			"HE" : ""
 		},
-		"Slot 6" : {
+		"Slot6" : {
 			"id" : "r1-s6-f",
 			"Manager" : "",
 			"Date" : "",
 			"HE" : ""
 		},
-		"Slot 7" : {
+		"Slot7" : {
 			"id" : "r1-s7-f",
 			"Manager" : "",
 			"Date" : "",
 			"HE" : ""
 		},
-		"Slot 8" : {
+		"Slot8" : {
 			"id" : "r1-s8-f",
-			"Manager" : "",
-			"Date" : "",
-			"HE" : ""
+			"Manager" : "Herbie Hancock",
+			"Date" : "04-24-2018",
+			"HE" : "??"
 		}
 	},
 	{
@@ -76,49 +76,49 @@
 			"Name" : "CTECM3S5TMC3",
 			"Number" : "CA#"
 		},
-		"Slot 1" : {
+		"Slot1" : {
 			"id" : "r1-s1-b",
 			"Manager" : "",
 			"Date" : "",
 			"HE" : ""
 		},
-		"Slot 2" : {
+		"Slot2" : {
 			"id" : "r1-s2-b",
 			"Manager" : "",
 			"Date" : "",
 			"HE" : ""
 		},
-		"Slot 3" : {
+		"Slot3" : {
 			"id" : "r1-s3-b",
 			"Manager" : "",
 			"Date" : "",
 			"HE" : ""
 		},
-		"Slot 4" : {
+		"Slot4" : {
 			"id" : "r1-s4-b",
 			"Manager" : "",
 			"Date" : "",
 			"HE" : ""
 		},
-		"Slot 5" : {
+		"Slot5" : {
 			"id" : "r1-s5-b",
 			"Manager" : "",
 			"Date" : "",
 			"HE" : ""
 		},
-		"Slot 6" : {
+		"Slot6" : {
 			"id" : "r1-s6-b",
 			"Manager" : "",
 			"Date" : "",
 			"HE" : ""
 		},
-		"Slot 7" : {
+		"Slot7" : {
 			"id" : "r1-s7-b",
 			"Manager" : "",
 			"Date" : "",
 			"HE" : ""
 		},
-		"Slot 8" : {
+		"Slot8" : {
 			"id" : "r1-s8-b",
 			"Manager" : "",
 			"Date" : "",
@@ -139,49 +139,49 @@
 			"Name" : "CTECM3S5TMC3",
 			"Number" : "CA#"
 		},
-		"Slot 1" : {
+		"Slot1" : {
 			"id" : "r2-s1-f",
 			"Manager" : "",
 			"Date" : "",
 			"HE" : ""
 		},
-		"Slot 2" : {
+		"Slot2" : {
 			"id" : "r2-s2-f",
 			"Manager" : "",
 			"Date" : "",
 			"HE" : ""
 		},
-		"Slot 3" : {
+		"Slot3" : {
 			"id" : "r2-s3-f",
 			"Manager" : "",
 			"Date" : "",
 			"HE" : ""
 		},
-		"Slot 4" : {
+		"Slot4" : {
 			"id" : "r2-s4-f",
 			"Manager" : "",
 			"Date" : "",
 			"HE" : ""
 		},
-		"Slot 5" : {
+		"Slot5" : {
 			"id" : "r2-s5-f",
 			"Manager" : "",
 			"Date" : "",
 			"HE" : ""
 		},
-		"Slot 6" : {
+		"Slot6" : {
 			"id" : "r2-s6-f",
 			"Manager" : "",
 			"Date" : "",
 			"HE" : ""
 		},
-		"Slot 7" : {
+		"Slot7" : {
 			"id" : "r2-s7-f",
 			"Manager" : "",
 			"Date" : "",
 			"HE" : ""
 		},
-		"Slot 8" : {
+		"Slot8" : {
 			"id" : "r2-s8-f",
 			"Manager" : "",
 			"Date" : "",
@@ -202,53 +202,55 @@
 			"Name" : "CTECM3S5TMC3",
 			"Number" : "CA#"
 		},
-		"Slot 1" : {
+		"Slot1" : {
 			"id" : "r2-s1-b",
 			"Manager" : "",
 			"Date" : "",
 			"HE" : ""
 		},
-		"Slot 2" : {
+		"Slot2" : {
 			"id" : "r2-s2-b",
 			"Manager" : "",
 			"Date" : "",
 			"HE" : ""
 		},
-		"Slot 3" : {
+		"Slot3" : {
 			"id" : "r2-s3-b",
 			"Manager" : "",
 			"Date" : "",
 			"HE" : ""
 		},
-		"Slot 4" : {
+		"Slot4" : {
 			"id" : "r2-s4-b",
 			"Manager" : "",
 			"Date" : "",
 			"HE" : ""
 		},
-		"Slot 5" : {
+		"Slot5" : {
 			"id" : "r2-s5-b",
 			"Manager" : "",
 			"Date" : "",
 			"HE" : ""
 		},
-		"Slot 6" : {
+		"Slot6" : {
 			"id" : "r2-s6-b",
 			"Manager" : "",
 			"Date" : "",
 			"HE" : ""
 		},
-		"Slot 7" : {
+		"Slot7" : {
 			"id" : "r2-s7-b",
 			"Manager" : "",
 			"Date" : "",
 			"HE" : ""
 		},
-		"Slot 8" : {
+		"Slot8" : {
 			"id" : "r2-s8-b",
 			"Manager" : "",
 			"Date" : "",
 			"HE" : ""
 		}
 	}
-]
+];
+
+
