@@ -29,6 +29,12 @@
 	top: 2px;
 }
 
+.tmc-type {
+	position: relative;
+	left: -8px;
+	color: #fff;
+}
+
 .tmc {
 	background-color: #333;
 	height: 50px;

@@ -4,7 +4,7 @@ var myData = [
 		"Type" : "Mondo Rack",
 		"Num" : "One",
 		"Number" : "1",
-		"id" : "rack-one-f",
+		"id" : "r1-f",
 		"Position" : "Front",
 		"TMC" : {
 			"id" : "r1-tmc-f",
@@ -67,7 +67,7 @@ var myData = [
 		"Type" : "Mondo Rack",
 		"Num" : "One",
 		"Number" : "1",
-		"id" : "rack-one-b",
+		"id" : "r1-b",
 		"Position" : "Back",
 		"TMC" : {
 			"id" : "r1-tmc-b",
@@ -130,7 +130,7 @@ var myData = [
 		"Type" : "Mondo Rack",
 		"Num" : "Two",
 		"Number" : "2",
-		"id" : "rack-two-f",
+		"id" : "r2-f",
 		"Position" : "Front",
 		"TMC" : {
 			"id" : "r2-tmc-f",
@@ -193,7 +193,7 @@ var myData = [
 		"Type" : "Mondo Rack",
 		"Num" : "Two",
 		"Number" : "2",
-		"id" : "rack-two-b",
+		"id" : "r2-b",
 		"Position" : "Back",
 		"TMC" : {
 			"id" : "r2-tmc-b",
