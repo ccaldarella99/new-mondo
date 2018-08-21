@@ -136,4 +136,44 @@
 }
 
 
+#add-server {
+	position: absolute;
+	bottom: 10px;
+	right: 10px;
+	background-color: #0b0;
+	width: 40px;
+	height: 40px;
+	border-radius: 50%;
+	color: #fff;
+	font-size: 3em;
+	font-weight: bold;
+	padding: 10px;
+}
+
+#add-server:hover {
+	cursor: pointer;
+	background-color: #070;
+}
+
+#plus-vert {
+	height: 26px;
+	width: 8px;
+	background-color: #fff;
+	position: relative;
+	top: 9px;
+	left: 16px;
+}
+
+#plus-horz {
+	height: 8px;
+	width: 26px;
+	background-color: #fff;
+	position: relative;
+	bottom: 8px;
+	left: 7px;
+}
+
+
+
+
 
