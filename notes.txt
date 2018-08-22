@@ -1,0 +1,4 @@
+https://stackoverflow.com/questions/21012580/is-it-possible-to-write-data-to-file-using-only-javascript
+
+http://jsfiddle.net/UselessCode/qm5AG/
+

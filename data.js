@@ -6,13 +6,27 @@ var myData = [
 		"Number" : "1",
 		"id" : "r1-f",
 		"Position" : "Front",
-		"TMC" : {
+		/*"TMC" : {
 			"id" : "r1-tmc-f",
 			"Type" : "SIT",
 			"IP" : "96.37.180.13",
 			"Name" : "CTECM3S5TMC3",
 			"Number" : "CA#"
+		},//*/
+		"TMCTOP" : {
+			"id" : "r1-tmc-f-top",
+			"Type" : "SIT",
+			"IP" : "96.37.180.13",
+			"Name" : "CTECM3S5TMC3",
+			"Number" : "CA# ONE FRONT TOP"
 		},
+		"TMCBOT" : {
+			"id" : "r1-tmc-f-bot",
+			"Type" : "QA",
+			"IP" : "96.37.180.13",
+			"Name" : "CTECM3S5TMC3",
+			"Number" : "CA# ONE FRONT BOTTOM"
+		},//*/
 		"Slot1" : {
 			"id" : "r1-s1-f",
 			"Manager" : "Herbie Hancock",
@@ -69,13 +83,27 @@ var myData = [
 		"Number" : "1",
 		"id" : "r1-b",
 		"Position" : "Back",
-		"TMC" : {
+		/*"TMC" : {
 			"id" : "r1-tmc-b",
 			"Type" : "SIT",
 			"IP" : "96.37.180.13",
 			"Name" : "CTECM3S5TMC3",
 			"Number" : "CA#"
+		},//*/
+		"TMCTOP" : {
+			"id" : "r1-tmc-b-top",
+			"Type" : "SIT",
+			"IP" : "96.37.180.13",
+			"Name" : "CTECM3S5TMC3",
+			"Number" : "CA#"
 		},
+		"TMCBOT" : {
+			"id" : "r1-tmc-b-bot",
+			"Type" : "SIT",
+			"IP" : "96.37.180.13",
+			"Name" : "CTECM3S5TMC3",
+			"Number" : "CA#"
+		},//*/
 		"Slot1" : {
 			"id" : "r1-s1-b",
 			"Manager" : "",
@@ -132,13 +160,27 @@ var myData = [
 		"Number" : "2",
 		"id" : "r2-f",
 		"Position" : "Front",
-		"TMC" : {
+		/*"TMC" : {
 			"id" : "r2-tmc-f",
 			"Type" : "SIT",
 			"IP" : "96.37.180.13",
 			"Name" : "CTECM3S5TMC3",
 			"Number" : "CA#"
+		},//*/
+		"TMCTOP" : {
+			"id" : "r2-tmc-f-top",
+			"Type" : "SIT",
+			"IP" : "96.37.180.13",
+			"Name" : "CTECM3S5TMC3",
+			"Number" : "CA#"
 		},
+		"TMCBOT" : {
+			"id" : "r2-tmc-f-bot",
+			"Type" : "SIT",
+			"IP" : "96.37.180.13",
+			"Name" : "CTECM3S5TMC3",
+			"Number" : "CA#"
+		},//*/
 		"Slot1" : {
 			"id" : "r2-s1-f",
 			"Manager" : "",
@@ -195,13 +237,27 @@ var myData = [
 		"Number" : "2",
 		"id" : "r2-b",
 		"Position" : "Back",
-		"TMC" : {
+		/*"TMC" : {
 			"id" : "r2-tmc-b",
 			"Type" : "SIT",
 			"IP" : "96.37.180.13",
 			"Name" : "CTECM3S5TMC3",
 			"Number" : "CA#"
+		},//*/
+		"TMCTOP" : {
+			"id" : "r2-tmc-b-top",
+			"Type" : "SIT",
+			"IP" : "96.37.180.13",
+			"Name" : "CTECM3S5TMC3",
+			"Number" : "CA#"
 		},
+		"TMCBOT" : {
+			"id" : "r2-tmc-b-bot",
+			"Type" : "SIT",
+			"IP" : "96.37.180.13",
+			"Name" : "CTECM3S5TMC3",
+			"Number" : "CA#"
+		},//*/
 		"Slot1" : {
 			"id" : "r2-s1-b",
 			"Manager" : "",

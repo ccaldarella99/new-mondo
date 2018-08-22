@@ -2,17 +2,28 @@
 <html>
 <head>
 	<title>Mondo Rack</title>
+	<link rel="stylesheet" href="reset.css">
 	<link rel="stylesheet" href="styles.css">
+	<link rel="stylesheet" href="overlay.css">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 </head>
 
 <body>
+
+	<div id="OverlayEdit" class="overlay">
+  <a href="javascript:void(0)" class="closebtn" onclick="closeOverlay()">&times;</a>
+  <div class="overlay-content" id="overlay-form">
+    <form id="edit-rack">
+    	Content: <input type="text">
+    </form>
+  </div>
+</div>
 	
 	<div id="container">
 	</div>
 	
-	<div id="add-server">
+	<div id="add-server" onclick="addServer();">
 		<div id="plus-vert"></div>
 		<div id="plus-horz"></div>
 	</div>

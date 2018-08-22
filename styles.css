@@ -26,18 +26,32 @@
 	margin: 2px;
 	display: inline-block;
 	position: relative;
-	top: 2px;
+	top: 4px;
+	background-image: url(rack.png);
 }
 
 .tmc-type {
 	position: relative;
-	left: -8px;
 	color: #fff;
+	height: 35px;
+	width: 80px;
+	float: block;
+	background-image: url(rack-m.png);
 }
 
-.tmc:hover .tmc-type {
-	color: #000;
+.tmc-type-top {
+	left: -8px;
+	top: 5px;
 }
+
+.tmc-type-bot {
+	left: -2px;
+	top: 15px;
+}
+
+/*.tmc:hover .tmc-type {
+	color: #000;
+}*/
 
 .tmc:hover {
 	background-color: #999;
@@ -45,16 +59,19 @@
 
 .tmc {
 	background-color: #333;
-	height: 50px;
-	width: 60px;
+	height: 80px;
+	width: 80px;
+	padding: : 0;
 	margin: 0 5px;
 	display: inline-block;
 	font-size: 30px;
-	padding: 20px 10px 10px 10px;
+	/*height: 50px;
+	width: 60px;
+	padding: 20px 10px 10px 10px;*/
 	display: inline-block;
 	position: relative;
 	text-align: center;
-	top: -22px;
+	top: -14px;
 	color: #fff;
 }
 
@@ -90,7 +107,11 @@
 	font-size: 16px;
 }
 
-.tmc:hover .tmc-text {
+.tmc:hover .tmc-text-top {
+	visibility: visible;
+}
+
+.tmc:hover .tmc-text-bot {
 	visibility: visible;
 }
 
@@ -104,9 +125,16 @@
 	border-radius: 5%;
 	position: absolute;
 	z-index: 5;
-	top: 60px;
 	left: 45px;
 	font-size: 16px;
+}
+
+.tmc-text-top {
+	top: -10px;
+}
+
+.tmc-text-bot {
+	top: 60px;
 }
 
 .rack-group:hover .rack-edit {
